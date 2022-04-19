@@ -46,11 +46,11 @@ public class PanelTriqui extends JPanel implements MouseListener
 			this.Y_origin = (int) Math.round(0.1*height);
 		}
 		
-		else if (width<height)
+		else
 		{
+			this.triquiLength = (int) Math.round(0.8*width);
 			this.Y_origin = (int) Math.round((height/2) - (triquiLength/2));
 			this.X_origin = (int) Math.round(0.1*width);
-			this.triquiLength = (int) Math.round(0.8*width);
 		}
 		
 		Graphics2D g2d = (Graphics2D) g;
