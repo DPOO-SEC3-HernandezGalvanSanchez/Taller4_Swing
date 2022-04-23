@@ -46,6 +46,6 @@ public class PanelBotones extends JPanel implements ActionListener
 	public void actualizarCantidadJugadas(int numero)
 	{
 		String mensaje = Integer.toString(numero) + " jugadas";
-		cantidadJugadas.setText(mensaje);		
+		cantidadJugadas.setText(mensaje);
 	}
 }
